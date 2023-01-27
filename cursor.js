@@ -1,6 +1,7 @@
 let innerCursor = document.querySelector(".inner-cursor");
 let outerCursor = document.querySelector(".outer-cursor");
 let img = document.querySelector(".lightblue");
+let footer = document.querySelector("footer");
 
 
 document.addEventListener("mousemove", moveCursor);
@@ -30,6 +31,17 @@ img.addEventListener('mouseover', () => {
 });
 
 img.addEventListener('mouseleave', () => {
+
+    innerCursor.classList.remove("grow");
+    outerCursor.classList.remove("change");
+});
+footer.addEventListener('mouseover', () => {
+
+    innerCursor.classList.add("grow");
+    outerCursor.classList.add("change");
+});
+
+footer.addEventListener('mouseleave', () => {
 
     innerCursor.classList.remove("grow");
     outerCursor.classList.remove("change");

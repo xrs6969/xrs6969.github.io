@@ -73,18 +73,6 @@ header ul li a
     border-radius:20px;
 }
 
-
-/*
-light blue background css
-*/
-
-.lightblue
-{
-    width:100%;
-    height:auto;
-    position:absolute;
-    top: 100%;
-}
 /*
 Custom Cursor
 */
@@ -356,6 +344,78 @@ overlapping images
     transform: translateX(0);
 }
 
+/*
+Horizontal Line
+*/
+
+.horizontalLine1
+{
+    position:absolute;
+    left:10%;
+    top:180%;
+    width: 80%;
+    height:2px;
+    border:0 none;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 200px;
+    margin-bottom:90px;
+    background-color: black;
+}
+.horizontalLine2
+{
+    position:absolute;
+    left:10%;
+    top:260%;
+    width: 80%;
+    height:2px;
+    border:0 none;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 200px;
+    margin-bottom:90px;
+    background-color: black;
+}
+
+
+/*
+Our Process
+*/
+
+.ourProcessText
+{
+    position:absolute;
+    top:300%;
+    width:30%;
+    left:37%;
+    font-weight:800;
+    text-decoration: none;
+    font-size: 3em;
+    letter-spacing: 2px;
+    
+    
+}
+
+.ourProcessImg1
+{
+    position:absolute;
+    top:320%;
+    width:100%;
+}
+.ourProcessImg1
+{
+    position:absolute;
+    top:320%;
+    width:100%;
+}
+.ourProcessImg1
+{
+    position:absolute;
+    top:320%;
+    width:100%;
+}
+
+
 
 /*
 footer
@@ -363,12 +423,13 @@ footer
 
 footer {
     position: absolute;
-    top:350%
+    top:450%;
 }
 
 @media (max-height:800px) {
     footer {
-        position: static;
+        position: absolute;
+        top:450%;
     }
     header {
         padding-top: 40px;

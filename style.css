@@ -354,7 +354,7 @@ Horizontal Line
     left:10%;
     top:180%;
     width: 80%;
-    height:2px;
+    height:1px;
     border:0 none;
     margin-right: auto;
     margin-left:auto;
@@ -368,7 +368,7 @@ Horizontal Line
     left:10%;
     top:260%;
     width: 80%;
-    height:2px;
+    height:1px;
     border:0 none;
     margin-right: auto;
     margin-left:auto;
@@ -382,12 +382,12 @@ Horizontal Line
 Our Process
 */
 
-.ourProcessText
+.focusText
 {
     position:absolute;
-    top:300%;
+    top:310%;
     width:30%;
-    left:37%;
+    left:11%;
     font-weight:800;
     text-decoration: none;
     font-size: 3em;
@@ -396,19 +396,19 @@ Our Process
     
 }
 
-.ourProcessImg1
+.focusImg1
 {
     position:absolute;
     top:320%;
     width:100%;
 }
-.ourProcessImg1
+.focusImg2
 {
     position:absolute;
     top:320%;
     width:100%;
 }
-.ourProcessImg1
+.focusImg3
 {
     position:absolute;
     top:320%;
